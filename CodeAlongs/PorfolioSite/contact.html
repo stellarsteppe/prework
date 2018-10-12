@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Creator: steppe
+Date Created 9/25/18
+Date last modified:9/28/28 -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Steppe Contact</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    </head>
+<div class="container">
+    <body>
+     <header class="jumbotron">
+         <h1>Contact Steppe</h1>
+
+        <nav> 
+        <a class="btn" href="index.html">Home</a>
+        <a class="btn" href="projects.html">Projects</a>
+        <a class="btn" href="testimonials.html">Testimonials</a>
+        <h2>Information Request</h2>
+         </nav>
+</header>
+    
+        <form action="submit.html" method="POST">
+
+             <label for="firstName">First Name:</label><br />
+                <input type="text" id="firstName" name="firstName"><br />
+            <label for="lastName">Last Name:</label><br />
+                <input type="text" id="lastName" name="lastName"><br />
+            <label for="phoneNumber">Phone Number:</label><br />
+                <input type="text" id="phoneNumber" name="phoneNumber"><br />
+
+            <label for="contact">Best time to call:</label><br />
+                <select id="contact" name="contact">
+                    <option value="default" selected>--Select One--</option>
+                    <option value="morning">Morning (8am to 12pm Eastern</option>
+                    <option value="afternoon">Afternoon (12pm to 5pm Eastern</option>
+                    <option value="evening">Evening (5pm to 8pm Eastern</option>
+                </select>
+
+            <fieldset> 
+                <legend>I am interested in (check all that apply)</legend><br />
+                    <input type="checkbox"  id="frontEnd" name="interest" value="frontEnd">
+                        <label for="frontEnd">Front End Web Development</label><br />
+                    <input type="checkbox" id="backEnd" name="interest" value="backEnd">
+                        <label for="backend">Back End Web Development</label><br />
+                    <input type="checkbox" id="database" name="interest" value="database">
+                        <label for="database">Database Design</label><br />
+            </fieldset>
+
+            <fieldset>
+                <legend>I have filled in the client questionaire form:</legend><br />
+                    <input type="radio" id="choice1" name="questionaire" value="no">
+                        <label for="choice1">Yes</label><br />
+                    <input type="radio" id="choice2" name="questionaire" name="yes">
+                        <labe for="choice2">No</labe><br />
+            </fieldset>
+
+            <label for="info">Additional Information:</label><br />
+                <textarea id="info" name="info"></textarea><br />
+
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        
+        <footer>
+            <&copy; 2018 Steppe>
+        </footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    </body>
+</html>
