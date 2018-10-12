@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+        /* form styling */
+body  {
+    background-color: black;
+}
+label[for=name]   {
+    margin-left: 20%;
+    font-weight: bold;
+    color:aqua;
+}
+label[for=email]    {
+    margin-left: 20%;
+    font-weight: bold;
+    color:aqua;
+}
+label[for=phone]    {
+    margin-left: 20%;
+    font-weight: bold;
+    color:aqua;
+}
+input[type=text]   {
+    margin-left: 10%;
+    width: 185px;
+}
+label[for=reason]   {
+    margin-left:13%;
+    font-weight: bold;
+    color:aqua;
+}
+select[id=reason]   {
+    margin-left: 8%;
+    width: 200px;
+    background-color:coral;
+    font-weight: bold;
+    font-size: 12pt;
+}
+label[for=info] {
+    margin-left: 10%;
+    margin-bottom: 50px;
+    vertical-align: top;
+    font-weight: bold;
+    color:aqua;
+}
+textarea[id=info]   {
+    margin-left: 8%;
+    width: 185px;
+    height: 100px;
+}
+.visitedRestaurant p    {
+    margin-left: 5%;
+}
+span2  {
+    font-weight: bold;
+    color:aqua;
+}
+input[id=choice1]   {
+    margin-left: 8%;
+}
+label[for=choice1], label[for=choice2]  {
+    color: aqua;
+}
+.contactDays p  {
+    margin-left: 10%;
+    color: aqua;
+}
+span3   {
+    font-weight: bold;
+    color:aqua;
+}
+input[id=monday]    {
+    margin-left: 9%;
+}
+input[type=checkbox]    {
+    
+}
+input[type=submit]  {
+    margin-left: 45%;
+}
+input[type=submit]:hover {
+    background-color:darkcyan;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       <div id="main">
+        <div class="site-header">
+            <h1><span class="be">Be</span><span class="bop">Bop</span><span class="s_sp">s 
+                Sp</span><span class="or">oR</span><span class="ts">Ts </span><span class="fun">FUN </span><span class="bar">bAR </span>
+                <span class="+"> + </span><span class="gri">Gri</span><span class="ll">LL</span></h1>
+        </div>
+        <div class="main-links">
+            <hr />
+            <p>
+                <a href="index.html" rel="noopener">Home</a>
+                <a href="menu.html" rel="noopener">Menu</a>
+                <a href="contactUs.html" rel="noopener">Contact Us</a>
+            </p>
+            <hr />
+        </div>
+       <div class="form">
+           <form action="submit.html" method="POST">
+               <div class="inputText">
+               <p><label for="name">Name:</label>
+               <input type="text" id="name" name="name"></p>
+               <p><label for="email">Email:</label>
+               <input type="text" id="email" name="email"></p>
+               <p><label for="phone">Phone:</label>
+               <input type="text" id="phone" name="phone"></p></div>
+               <div class="pickOption">
+               <p><label for="reason">Reason for Inquiry:</label>
+               <select id="reason" name="reason">
+                   <option value="default" selected>Catering</option>
+                   <option value="privateParty">Private Party</option>
+                   <option value="feedback">Feedback</option>
+                   <option value="other">Other</option>
+               </select></p></div>
+            <div class="textBox">
+                <p><label for="info">Additional Information:</label>
+                    <textarea id="info"></textarea></p></div>
+               <div class="visitedRestaurant">
+                <p><span2>Have you been to our restaurant?</span2>           
+                <input type="radio" id="choice1" name="restaurant" value="no">
+                <label for="choice1">No</label>
+                <input type="radio" id="choice2" name="restaurant" value"yes">
+                <label for="choice2">Yes</label></p></div>
+                <div class="contactDays">
+                <p><span3>Best days to contact you:</span3>  
+                 <input type="checkbox" id="monday" name="day" value="monday">
+                 <label for="monday">M</label>
+                 <input type="checkbox" id="tuesday" name="day" value="tuesday">
+                 <label for="tuesday">T</label>
+                 <input type="checkbox" id="wednesday" name="day" value="wednesday">
+                 <label for="wednesday">W</label>
+                 <input type="checkbox" id="thursday" name="day" value="thursday">
+                 <label for="thursday">TH</label>
+                 <input type="checkbox" id="friday" name="day" value="friday">
+                 <label for="friday">F</label></p></div>
+                 <div class="button"
+                 <p><input type="submit" name="sendRequest" value="Send Request"></p>
+                     </form>
+                 </div>
+               </div>
+
+        </p>
+    </div>
+    <div class="main-footer">
+        <hr />
+        <p>1009 109th Ave. NE, Blaine, MN 55434</p>
+        <p>763-234-2324</p>
+    </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+.title {
+    background-color: slategray;
+    color: white;
+}
+.site-header    {
+        text-align: center;
+}
+.be {
+    color: green;
+}
+.bop    {
+    color:greenyellow;
+}
+.s_sp    {
+    color:fuchsia;
+}
+.or     {
+    color: cadetblue;
+}
+.ts     {
+    color: orange;
+}
+.fun    {
+    color: salmon;
+}
+.bar    {
+    color: mediumseagreen;
+}
+/*  doesn't work
+.+      {
+    color: yellow;
+}  */
+.gri    {
+    color: lightcoral;
+}
+.ll     {
+    color: slateblue;
+}
+.main-links     {
+        color: blue;
+}
+
+a:link {
+    color: blueviolet;
+    margin-left: 50px;
+}
+a:visited     {
+    color: fuchsia;
+}
+a:hover      {
+    font-weight: bold;
+    color: coral;
+    zoom: 1.5;
+}
+a:active  {
+    color: green;
+
+}
+
+.restaurantDescription      {
+        text-align: center;
+        border: 5px dotted fuchsia;
+        color: springgreen;
+        width: 400px;
+        height: 300px;
+        margin-left: 30%;
+}
+.main-footer    {
+    text-align: center;
+    color: yellowgreen;
+}
+
+
