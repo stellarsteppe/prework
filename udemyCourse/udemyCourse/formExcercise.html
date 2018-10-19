@@ -1,0 +1,71 @@
+<!-- Creator: steppe
+Date Created: 10/17/18
+Date Last MOdified: 10/17/18 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Excercise</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="http://wikipedia.org" method="GET">
+        <label for="firstName">First Name: </label>
+        <input id="firstName" type="text" placeholder="first name" required>
+        <label for="lastName">Last Name: </label>
+        <input id="lastName" type="text" placeholder="last name" required>
+        <br />
+        <div>
+        <label for="male">Male </label>
+        <input id="male" name="gender" type="radio" value="male">
+        <label for="female">Female</label>
+        <input id="female" name="gender" type="radio" value="female">
+        <label for="other">Other </label>
+        <input id="other" name="gender" type="radio" value="other">
+        <br />
+        </div>
+        <div>
+            <label for="email">Email:
+            <input name="email" type="email" placeholder="your email" required>
+            </label>
+            <label for="password">Password:
+            <input name="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+            </label>
+        </div>
+        <div>
+        <label for="birthday">Birthday 
+        <select name="birthday">
+            <option value="month"> Month </option>
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select>
+        </label>
+        <select name="numericDay">
+            <option value="day"> Day </option>
+            <option value="1"> 1 </option>
+        </select>
+        <select name="year">
+            <option value="year"> Year </option>
+            <option value="2000"> 2000 </option>
+        </select>
+        <br />
+        <label for="consent">I agree to the terms and conditions</label>
+        <input id="consent"name="consent" type="checkbox" required>
+        <br />
+        <button>Submit</button>
+
+</body>
+
+</html>

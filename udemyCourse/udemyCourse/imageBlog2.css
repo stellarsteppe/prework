@@ -1,0 +1,31 @@
+/*
+Creator: steppe 
+Date Created: 10/18/18 
+Date Last Modified: 10/18/18
+*/
+
+.container {
+    border: 20px solid lightgray;
+    padding-left: 5px;
+}
+body {
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    font-family: Source Sans Pro;
+}
+
+hr {
+    width: 95%;
+    padding-right: 5px;
+}
+blockquote {
+    border-left: 5px solid lightgray;
+    padding-left: 5px;
+}
+.date {
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: lightblue;
+    letter-spacing: 0.2rem;
+}

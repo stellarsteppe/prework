@@ -1,0 +1,25 @@
+/*
+Creator:steppe
+Date Created: 10/18/18
+Date Last Modified: 10/18/19
+*/
+
+body {
+    padding-top: 70px;
+}
+.jumbotron {
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+.navbar-inverse {
+    background-color: #2c3e50;
+}
+a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
