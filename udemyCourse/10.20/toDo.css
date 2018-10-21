@@ -1,0 +1,13 @@
+/*
+Creator: steppe
+Date Created: 10.20.18
+Date Last Modified: 10.20.18
+*/
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.selected {
+    color: green;
+}
